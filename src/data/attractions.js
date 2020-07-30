@@ -70,3 +70,5 @@ const attractions = [
     className: 'w-third-l ml-auto-l'
   }
 ];
+
+export default attractions;
