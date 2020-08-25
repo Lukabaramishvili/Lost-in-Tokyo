@@ -47,12 +47,10 @@ const Attraction = ({title, description, className, image, link}) => {
 
   const handleShowInfo = () => {
     setShowInfo(true);
-    console.log('clicked');
   }
 
   const handleShowInfoClose = () => {
     setShowInfo(false);
-    console.log('leave')
   }
 
   return (
@@ -71,6 +69,8 @@ const Attraction = ({title, description, className, image, link}) => {
           <a
             className="f4 f3-ns mt0 mb2 regular black normal lh-title no-underline"
             href={`${link}`}
+            target="_blank"
+            rel="noopener noreferrer"
           >
             {title}
           </a>
