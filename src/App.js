@@ -71,7 +71,6 @@ const Attraction = ({title, description, className, image, link}) => {
           <a
             className="f4 f3-ns mt0 mb2 regular black normal lh-title no-underline"
             href={`${link}`}
-            target="_blank"
           >
             {title}
           </a>
