@@ -1,4 +1,4 @@
-[Live Demo](lost-in-tokyo-l.netlify.app).
+[Live Demo](lost-in-tokyo-l.netlify.app)
 
 ### Purpose 
 
